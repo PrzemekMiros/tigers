@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="pl">
+   <head>
+      <meta charset="utf-8"/>
+      <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+      <title>Webgrow</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+      <meta content="telephone=no" name="format-detection"/>
+      <meta name="HandheldFriendly" content="true"/>
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+      <!-- Template Vendor's Stylesheet -->
+      <link rel="stylesheet" type="text/css" href="css/vendor.css"/>
+      <!-- Template Main Stylesheet -->
+      <link rel="stylesheet" type="text/css" href="css/main.css"/>
+      <!-- Favicons & App Icons -->
+      <link rel="apple-touch-icon" sizes="57x57" href="img/content/apple-icon-57x57.png"/>
+      <link rel="apple-touch-icon" sizes="60x60" href="img/content/apple-icon-60x60.png"/>
+      <link rel="apple-touch-icon" sizes="72x72" href="img/content/apple-icon-72x72.png"/>
+      <link rel="apple-touch-icon" sizes="76x76" href="img/content/apple-icon-76x76.png"/>
+      <link rel="apple-touch-icon" sizes="114x114" href="img/content/apple-icon-114x114.png"/>
+      <link rel="apple-touch-icon" sizes="120x120" href="img/content/apple-icon-120x120.png"/>
+      <link rel="apple-touch-icon" sizes="144x144" href="img/content/apple-icon-144x144.png"/>
+      <link rel="apple-touch-icon" sizes="152x152" href="img/content/apple-icon-152x152.png"/>
+      <link rel="apple-touch-icon" sizes="180x180" href="img/content/apple-icon-180x180.png"/>
+      <link rel="icon" type="image/png" sizes="192x192" href="img/content/android-icon-192x192.png"/>
+      <link rel="icon" type="image/png" sizes="32x32" href="img/content/favicon-32x32.png"/>
+      <link rel="icon" type="image/png" sizes="96x96" href="img/content/favicon-96x96.png"/>
+      <link rel="icon" type="image/png" sizes="16x16" href="img/content/favicon-16x16.png"/>
+      <link rel="manifest" href="img/content/manifest.json"/>
+      <meta name="msapplication-TileColor" content="#ffffff"/>
+      <meta name="msapplication-TileImage" content="img/content/ms-icon-144x144.png"/>
+      <meta name="theme-color" content="#ffffff"/>
+      <link rel="icon" type="image/x-icon" href="img/content/favicon.ico"/>
+   </head>
+   <body>
+      <div data-barba="wrapper">
+         <!-- PAGE PRELOADER --
+            <div class="preloader preloader_header-menu-hidden mask-reveal" id="js-preloader" data-arts-theme-text="light" data-arts-preloader-logo="secondary">
+              <div class="preloader preloader_header-menu-hidden mask-reveal" id="js-preloader" data-arts-theme-text="light" data-arts-preloader-logo="secondary">
+                <div class="mask-reveal__layer mask-reveal__layer-1 bg-dark-1">
+                  <div class="mask-reveal__layer mask-reveal__layer-2">
+                    <div class="preloader__wrapper">
+                      <div class="preloader__counter preloader__counter_started me-auto mt-auto underline js-preloader__counter">00%</div>
+                      <div class="preloader__content ms-auto mt-auto js-preloader__content">
+                        <div class="h6">Loading</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            -- - PAGE PRELOADER -->
+         <!-- PAGE HEADER -->
+         <header class="header header_fixed js-header-sticky container-fluid header_menu-center" id="page-header" data-arts-theme-text="light" data-arts-header-sticky-theme="bg-dark-1" data-arts-header-logo="primary" data-arts-header-sticky-logo="primary" data-arts-header-sticky-theme-text="light" data-arts-header-overlay-theme-text="dark">
+            <!-- top bar -->
+            <div class="header__container header__controls">
+               <div class="row align-items-center justify-content-between">
+                  <!-- logo -->
+                  <div class="col-auto col-md-1">
+                     <a class="logo" href="index.html">
+                        <div class="logo__wrapper-img">
+                           <img class="logo__img-primary" src="img/logo/favicon.png" alt="Logo" width="52" height="19"/>
+                        </div>
+                     </a>
+                  </div>
+                  <!-- - logo -->
+                  <!-- desktop menu-->
+                  <div class="col-auto header__col d-none d-lg-block col-lg-7">
+                     <ul class="menu js-menu">
+                        <li class="nav-border"><a href="uslugi">Usługi</a></li>
+                        <li class="nav-border"><a href="realizacje">Realizacje</a></li>
+                        <li class="nav-border"><a href="o-mnie">O mnie</a></li>
+                        <li class="nav-border"><a href="kontakt">Kontakt</a></li>
+                     </ul>
+                  </div>
+                  <!-- - desktop menu -->
+                  <div class="col-auto widget-area widget-area_no-margin-last-widget col-md-4 d-flex justify-content-end">
+                     <section class="widget widget_kinsey_social">
+                        <ul class="social mob-none">
+                           <li class="social__item"><a class="social__icon fa-fw fab fa-facebook-f" href="#"></a></li>
+                           <li class="social__item"><a class="social__icon fa-fw fab fa-linkedin" href="#"></a></li>
+                           <li class="social__item"><a class="social__icon fa-fw fab fa-behance" href="#"></a></li>
+                        </ul>
+                        <a class="button button_icon button_solid bg-accent-1 ml-3 mob-none" href="wycena.html"><span class="button__label button__label-normal"><span class="button__title">Wycena</span><span class="button__icon button__icon_after knz-arrow-right"></span></span><span class="button__label button__label-hover"><span class="button__title">Wycena</span><span class="button__icon button__icon_after knz-arrow-right"></span></span></a>
+                     </section>
+                  </div>
+                  <!-- burger icon -->
+                  <div class="col-auto header__col d-flex align-items-center d-lg-none">
+                     <div class="ms-auto header__burger" id="js-burger" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">
+                        <div class="header__burger-line"></div>
+                        <div class="header__burger-line"></div>
+                        <!-- burger labels -->
+                        <div class="header__label header__burger-label">
+                           <div class="header__label-burger header__label-burger_inner header__label-burger_closed-open">Menu</div>
+                           <div class="header__label-burger header__label-burger_inner header__label-burger_closed-hover">Otwórz</div>
+                           <div class="header__label-burger header__label-burger_inner header__label-burger_opened-open">Zamknij</div>
+                           <div class="header__label-burger header__label-burger_inner header__label-burger_opened-hover">Zamknij</div>
+                        </div>
+                        <!-- - burger labels -->
+                     </div>
+                  </div>
+                  <!-- - burger icon -->
+                  <!-- "back" button for submenu nav -->
+                  <div class="header__overlay-menu-back" id="js-submenu-back" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">
+                     <i class="material-icons">arrow_back</i>
+                     <div class="header__label header__label_status">
+                        <div class="js-header-label-submenu"></div>
+                     </div>
+                     <div class="header__label header__label_opened-back">Wróć</div>
+                  </div>
+                  <!-- - "back" button for submenu nav -->
+               </div>
+            </div>
+            <!-- - top bar -->
+            <!-- fullscreen overlay container -->
+            <div class="header__wrapper-overlay-menu" data-arts-theme-text="light">
+               <div class="mask-reveal w-100 h-100">
+                  <div class="mask-reveal__layer mask-reveal__layer-1 bg-dark-1">
+                     <div class="mask-reveal__layer mask-reveal__layer-2">
+                        <div class="row align-items-center h-100">
+                           <!-- menu & bottom widgets -->
+                           <div class="header__menu-column h-100 d-flex flex-column position-relative bg-dark-2">
+                              <!-- top gradient-->
+                              <div class="header__menu-gradient header__menu-gradient_top"></div>
+                              <!-- - top gradient-->
+                              <!-- virtual scrolling container -->
+                              <div class="header__scroll-container js-header-smooth-scroll-container overflow pointer-events-auto">
+                                 <div class="header__wrapper-menu">
+                                    <ul class="menu-overlay js-menu-overlay">
+                                       <li class="menu-item-has-children">
+                                          <a href="uslugi" data-pjax-link="overlayMenu">
+                                             <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                                                <span class="menu-overlay__subheading small mb-1">01</span>
+                                                <div class="menu-overlay__heading h2">Usługi</div>
+                                             </div>
+                                          </a>
+                                       </li>
+                                       <li class="menu-item-has-children">
+                                          <a href="realizacje" data-pjax-link="overlayMenu">
+                                             <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                                                <span class="menu-overlay__subheading small mb-1">02</span>
+                                                <div class="menu-overlay__heading h2">Realizacje</div>
+                                             </div>
+                                          </a>
+                                       </li>
+                                       <li class="menu-item-has-children">
+                                          <a href="o-mnie" data-pjax-link="overlayMenu">
+                                             <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                                                <span class="menu-overlay__subheading small mb-1">03</span>
+                                                <div class="menu-overlay__heading h2">O mnie</div>
+                                             </div>
+                                          </a>
+                                       </li>
+                                       <li class="menu-item-has-children">
+                                          <a href="kontakt" data-pjax-link="overlayMenu">
+                                             <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text" data-arts-split-text="lines,words" data-arts-split-text-set="lines" data-arts-split-text-overflow-wrap="lines">
+                                                <span class="menu-overlay__subheading small mb-1">05</span>
+                                                <div class="menu-overlay__heading h2">Kontakt</div>
+                                             </div>
+                                          </a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <!-- - virtual scrolling container -->
+                           </div>
+                           <!-- - menu & bottom widgets -->
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- - fullscreen overlay container // - fullscreen overlay container 
+               -->
+            <!-- - fullscreen overlay container -->
+         </header>
+         <!-- - PAGE HEADER -->
+         <!-- PAGE MAIN CONTAINER -->
+         <div class="js-smooth-scroll bg-dark-1" id="page-wrapper" data-barba="container">
+            <div class="section section-content borders-y container" data-arts-scroll-fixed="true">
+               <div class="row" data-arts-os-animation="true"
+                  data-arts-os-animation-name="animateJump">
+                  <div class="col-6 col-md-3 border-right border-left"></div>
+                  <div class="col-6 col-md-3 border-right"></div>
+                  <div class="col-md-3 border-right mob-none"></div>
+                  <div class="col-md-3 border-right mob-none"></div>
+               </div>
+            </div>
+            <!-- PAGE CONTENT -->
+            <main class="page-wrapper__content">
+               <!-- LINES 1 -->
+               <div class="section section-content lines-y-1 container">
+                  <div class="row" data-arts-os-animation="true"
+                     data-arts-os-animation-name="animateJump">
+                     <div class="col-md-3 line-y-1"></div>
+                     <div class="col-md-3 line-y-2"></div>
+                     <div class="col-md-3 line-y-3"></div>
+                     <div class="col-md-3 line-y-4 line-y-5"></div>
+                  </div>
+               </div>
+               <!-- LINES 1 END -->
+               <div class="pt-medium"></div>
+               <!-- MAIN BANNER -->
+               <section class="section section-content pt-large pb-medium" data-arts-theme-text="light">
+                  <div class="container p-relative">
+                     <div class="row">
+                        <div class="col-md-8 col-lg-6">
+                           <div
+                              class="section-content__content content js-arts-split-text arts-split-text"
+                              data-arts-os-animation="true"
+                              data-arts-os-animation-name="animateText"
+                              data-arts-split-text="lines"
+                              data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"
+                              >
+                              <h1 class="w-125">Twój niezawodny partner w cyfrowym świecie.</h1>
+                              <p class="h4"><span class="color-accent"><b>Tworzę strony internetowe,</b></span> które pomagają w sprzedaży produktów oraz usług. </p>
+                           </div>
+                           <div 
+                              class="section-content__content content js-arts-split-text arts-split-text"
+                              data-arts-os-animation="true"
+                              data-arts-os-animation-name="animateJump">
+                              <a class="button button_icon button_solid bg-accent-1 mt-5" href="index.html"><span class="button__label button__label-normal"><span class="button__title">Zobacz więcej</span><span class="button__icon button__icon_after knz-arrow-right"></span></span><span class="button__label button__label-hover"><span class="button__title">Zobacz więcej</span><span class="button__icon button__icon_after knz-arrow-right"></span></span></a>
+                           </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6 letters text-center mob-none">
+                           <div data-arts-os-animation="true"
+                           data-arts-os-animation-name="animateJump">
+                           <div class="big-letter-wrap">
+                              <div class="big-letter">
+                                 Web
+                              </div>
+                           </div>
+                         </div>
+                         </div>
+                     </div> 
+                  </div>
+               </section>
+               <!-- MAIN BANNER END -->
+               <section class="section section-masthead pt-large" data-arts-os-animation="true" data-arts-theme-text="light">
+                  <div class="section-masthead__wrapper-content">
+                     <div class="section__content">
+                        <div class="container p-relative">
+                           <div class="row">
+                              <div class="col-md-3"></div>
+                              <div class="col-md-7 image-left">
+                                 <div class="mask-reveal js-transition-img js-arts-parallax overflow" data-arts-parallax-factor-y="0.15">
+                                    <div class="mask-reveal__layer mask-reveal__layer-1">
+                                       <div class="mask-reveal__layer mask-reveal__layer-2 lazy-wrapper">
+                                          <div class="js-arts-parallax__scrub js-transition-img__transformed-el lazy">
+                                             <img src="#" data-src="img/general/office.jpg" alt="alt"/>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                                 <div
+                                    class="section-content__content content js-arts-split-text arts-split-text pt-large"
+                                    data-arts-os-animation="true"
+                                    data-arts-os-animation-name="animateText"
+                                    data-arts-split-text="lines"
+                                    data-arts-split-text-set="lines"
+                                    data-arts-split-text-overflow-wrap="lines"
+                                    >
+                                    <h2 class="color-accent trans-right-text">
+                                       Nowy standard <br/> digital marketingu
+                                    </h2>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <div class="pt-xlarge mob-none"></div>
+               <section class="section section-content pt-xsmall pb-small" data-arts-theme-text="light">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="section-content__content content js-arts-split-text arts-split-text"
+                              data-arts-os-animation="true"
+                              data-arts-os-animation-name="animateText"
+                              data-arts-split-text="lines"
+                              data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines">
+                              <span class="color-accent mt-5">
+                              01
+                              </span>
+                              <h3>
+                                 Doświadczenie
+                              </h3>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="section-content__content content js-arts-split-text arts-split-text"
+                              data-arts-os-animation="true"
+                              data-arts-os-animation-name="animateText"
+                              data-arts-split-text="lines"
+                              data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines">
+                              <span class="color-accent mt-5">
+                              02
+                              </span>
+                              <h3>
+                                 Zaangażowanie
+                              </h3>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="section-content__content content js-arts-split-text arts-split-text"
+                              data-arts-os-animation="true"
+                              data-arts-os-animation-name="animateText"
+                              data-arts-split-text="lines"
+                              data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines">
+                              <span class="color-accent mt-5">
+                              03
+                              </span>
+                              <h3>
+                                 Transparentność
+                              </h3>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- WEBSITES -->
+               <section class="section section-masthead pt-medium pb-small" data-arts-os-animation="true" data-arts-theme-text="light">
+                  <div class="section-masthead__wrapper-content">
+                     <div class="section__content">
+                        <div class="container p-relative">
+                           <div class="row">
+                              <div class="col-md-3"></div>
+                              <div class="col-md-7 image-left">
+                                 <div class="mask-reveal js-transition-img js-arts-parallax overflow" data-arts-parallax-factor-y="0.15">
+                                    <div class="mask-reveal__layer mask-reveal__layer-1">
+                                       <div class="mask-reveal__layer mask-reveal__layer-2 lazy-wrapper">
+                                          <div class="js-arts-parallax__scrub js-transition-img__transformed-el lazy">
+                                             <img src="#" data-src="img/general/home0.jpg" alt="alt"/>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                                 <div
+                                    class="section-content__content content js-arts-split-text arts-split-text pt-small"
+                                    data-arts-os-animation="true"
+                                    data-arts-os-animation-name="animateText"
+                                    data-arts-split-text="lines"
+                                    data-arts-split-text-set="lines"
+                                    data-arts-split-text-overflow-wrap="lines"
+                                    >
+                                    <h2 class="h1 color-accent trans-right-text">
+                                       Strony internetowe
+                                    </h2>
+                                    <p>
+                                       Projekt graficzny oraz funkcje strony www, dostosowuje do branży oraz potrzeb klientów, budując wyjątkowy, spójny i przemyślany wizerunek firmy. 
+                                    </p>
+                                    <ul>
+                                       <li>Wysoka wydajność</li>
+                                       <li>Pełna responsywność</li>
+                                       <li>Optymalizacja SEO</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-wide mob-none">
+                                 <div
+                                    class="section-content__content content blockquote pt-blockquote"
+                                    data-arts-os-animation="true"
+                                    data-arts-os-animation-name="animateJump"
+                                    >
+                                       <small>
+                                       Dużą uwagę przykuwam do użyteczności strony,
+                                       czyli coraz bardziej popularny w ostatnich
+                                       czasach User Experience. Klient który odwiedzi Twoją
+                                       stronę na pewno się na niej nie zgubi, a to przybliży go
+                                       do kontaktu z Twoją firmą. 
+                                       </small>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="section section-content lines-y-2 container">
+                     <div class="row" data-arts-os-animation="true"
+                        data-arts-os-animation-name="animateJump">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3 line-y-3"></div>
+                        <div class="col-md-3 line-y-4"></div>
+                     </div>
+                  </div>
+               </section>
+               <!-- WEBSITES END -->
+               <!-- ECOMMERCE -->
+               <section class="section section-masthead pt-large pb-small" data-arts-os-animation="true" data-arts-theme-text="light">
+                  <div class="section-masthead__wrapper-content">
+                     <div class="section__content">
+                        <div class="container p-relative">
+                           <div class="row">
+                              <div class="col-md-3"></div>
+                              <div class="col-md-7 image-left">
+                                 <div class="mask-reveal js-transition-img js-arts-parallax overflow" data-arts-parallax-factor-y="0.15">
+                                    <div class="mask-reveal__layer mask-reveal__layer-1">
+                                       <div class="mask-reveal__layer mask-reveal__layer-2 lazy-wrapper">
+                                          <div class="js-arts-parallax__scrub js-transition-img__transformed-el lazy">
+                                             <img src="#" data-src="img/general/home0.jpg" alt="alt"/>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                                 <div
+                                    class="section-content__content content js-arts-split-text arts-split-text pt-small"
+                                    data-arts-os-animation="true"
+                                    data-arts-os-animation-name="animateText"
+                                    data-arts-split-text="lines"
+                                    data-arts-split-text-set="lines"
+                                    data-arts-split-text-overflow-wrap="lines"
+                                    >
+                                    <h2 class="h1 color-accent trans-right-text">
+                                       Sklepy ecommerce
+                                    </h2>
+                                    <p>
+                                       Projekt graficzny oraz funkcje strony www, dostosowuje do branży oraz potrzeb klientów, budując wyjątkowy, spójny i przemyślany wizerunek firmy. 
+                                    </p>
+                                    <ul>
+                                       <li>Wysoka wydajność</li>
+                                       <li>Pełna responsywność</li>
+                                       <li>Optymalizacja SEO</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-wide mob-none">
+                                 <div
+                                    class="section-content__content content blockquote pt-blockquote"
+                                    data-arts-os-animation="true"
+                                    data-arts-os-animation-name="animateJump"
+                                    >
+                                       <small>
+                                       Dużą uwagę przykuwam do użyteczności strony,
+                                       czyli coraz bardziej popularny w ostatnich
+                                       czasach User Experience. Klient który odwiedzi Twoją
+                                       stronę na pewno się na niej nie zgubi, a to przybliży go
+                                       do kontaktu z Twoją firmą. 
+                                       </small>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="section section-content lines-y-3 container">
+                     <div class="row" data-arts-os-animation="true"
+                        data-arts-os-animation-name="animateJump">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3"></div>
+                        <div class="col-md-3 line-y-3"></div>
+                        <div class="col-md-3 line-y-4"></div>
+                     </div>
+                  </div>
+               </section>
+               <!-- ECOMMERCE END -->
+               <!-- POSITION -->
+               <section class="section section-masthead pt-large pb-xlarge" data-arts-os-animation="true" data-arts-theme-text="light">
+                  <div class="section-masthead__wrapper-content">
+                     <div class="section__content">
+                        <div class="container p-relative">
+                           <div class="row">
+                              <div class="col-md-3"></div>
+                              <div class="col-md-7 image-left">
+                                 <div class="mask-reveal js-transition-img js-arts-parallax overflow" data-arts-parallax-factor-y="0.15">
+                                    <div class="mask-reveal__layer mask-reveal__layer-1">
+                                       <div class="mask-reveal__layer mask-reveal__layer-2 lazy-wrapper">
+                                          <div class="js-arts-parallax__scrub js-transition-img__transformed-el lazy">
+                                             <img src="#" data-src="img/general/home0.jpg" alt="alt"/>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                                 <div
+                                    class="section-content__content content js-arts-split-text arts-split-text pt-small"
+                                    data-arts-os-animation="true"
+                                    data-arts-os-animation-name="animateText"
+                                    data-arts-split-text="lines"
+                                    data-arts-split-text-set="lines"
+                                    data-arts-split-text-overflow-wrap="lines"
+                                    >
+                                    <h2 class="h1 color-accent trans-right-text">
+                                       Pozycjonowanie
+                                    </h2>
+                                    <p>
+                                       Projekt graficzny oraz funkcje strony www, dostosowuje do branży oraz potrzeb klientów, budując wyjątkowy, spójny i przemyślany wizerunek firmy. 
+                                    </p>
+                                    <ul>
+                                       <li>Wysoka wydajność</li>
+                                       <li>Pełna responsywność</li>
+                                       <li>Optymalizacja SEO</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="col-md-3 col-wide mob-none">
+                                 <div
+                                    class="section-content__content content blockquote pt-blockquote"
+                                    data-arts-os-animation="true"
+                                    data-arts-os-animation-name="animateJump"
+                                    >
+                                       <small>
+                                       Dużą uwagę przykuwam do użyteczności strony,
+                                       czyli coraz bardziej popularny w ostatnich
+                                       czasach User Experience. Klient który odwiedzi Twoją
+                                       stronę na pewno się na niej nie zgubi, a to przybliży go
+                                       do kontaktu z Twoją firmą. 
+                                       </small>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <!-- POSITION END -->
+               <!-- COOPERATE -->
+               <section class="section section-logos section-content text-center pt-large pb-small bg-light-2" data-arts-theme-text="dark">
+                <div class="container">
+                  <div class="section section-content borders-y-light container">
+                    <div class="row h-100" data-arts-os-animation="true"
+                       data-arts-os-animation-name="animateJump">
+                       <div class="col-6 col-md-3 border-right border-left"></div>
+                       <div class="col-6 col-md-3 border-right"></div>
+                       <div class="col-md-3 border-right mob-none"></div>
+                       <div class="col-md-3 border-right mob-none"></div>
+                    </div>
+                 </div>
+                  <div
+                  class="section-content__content content js-arts-split-text arts-split-text"
+                  data-arts-os-animation="true"
+                  data-arts-os-animation-name="animateText"
+                  data-arts-split-text="lines"
+                  data-arts-split-text-set="lines"
+                  data-arts-split-text-overflow-wrap="lines"
+                  >
+                  <h2 class="h1 mt-3 pb-small">
+                     Zobacz z kim współpracuje
+                  </h2>
+               </div>
+                  <div class="row h-100 table_no-outer-borders">
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/eco.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/C7.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/uce.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/ceramiks.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/egp.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/ww.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/chrome.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/gaszyn.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/wood.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/wood.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/wood.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-3 border2">
+                      <div class="section-logos__wrapper-logo" data-arts-os-animation="true" data-arts-os-animation-name="animateJump" data-arts-os-animation-params="{direction: 'up', y: '66%', scaleY: 1.5}">
+                        <div class="lazy-wrapper">
+                          <div class="lazy">
+                            <img src="#" data-src="img/logos/wood.png" width="173" height="233" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section section-content lines-y-4 container">
+                  <div class="row" data-arts-os-animation="true"
+                     data-arts-os-animation-name="animateJump">
+                     <div class="col-md-3 line-y-1"></div>
+                     <div class="col-md-3 line-y-2"></div>
+                     <div class="col-md-3"></div>
+                     <div class="col-md-3 line-y-4"></div>
+                  </div>
+               </div>
+              </section>
+               <!-- COOPERATE END-->
+               <section class="section section-content pt-xlarge">
+                  <div class="container">
+                     <div class="cta-banner pt-medium pb-medium text-center" data-arts-theme-text="light">
+                        <div
+                           class="section-content__content content js-arts-split-text arts-split-text"
+                           data-arts-os-animation="true"
+                           data-arts-os-animation-name="animateText"
+                           data-arts-split-text="lines"
+                           data-arts-split-text-set="lines"
+                           data-arts-split-text-overflow-wrap="lines"
+                           >
+                           <h2>
+                              Potrzebujesz porady lub wyceny? <br/>Skontaktuj się ze mną
+                           </h2>
+                        </div>
+                        <div 
+                           class="section-content__content content js-arts-split-text arts-split-text"
+                           data-arts-os-animation="true"
+                           data-arts-os-animation-name="animateJump"
+                           data-arts-os-animation-params="{stagger: {amount: 1.3}}"
+                           >
+                           <a class="button button_icon button_solid bg-dark-1 mt-4" href="index.html"><span class="button__label button__label-normal"><span class="button__title">Zobacz więcej</span><span class="button__icon button__icon_after knz-arrow-right"></span></span><span class="button__label button__label-hover"><span class="button__title">Zobacz więcej</span><span class="button__icon button__icon_after knz-arrow-right"></span></span></a>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </main>
+            <!-- - PAGE CONTENT -->
+            <!-- PAGE FOOTER -->
+            <footer class="footer pt-large" id="page-footer" data-arts-theme-text="light" data-arts-fixed-reveal="data-arts-fixed-reveal" data-arts-fixed-reveal-from="-20vh" data-arts-fixed-reveal-from-opacity="0">
+               <div class="footer__inner">
+                  <div class="container">
+                     <!-- widget area #1 [wide] -->
+                     <div class="row pb-md-3">
+                        <div class="col">
+                           <section class="widget widget_text">
+                              <h4>
+                                 Przemek Miros
+                              </h4>
+                           </section>
+                        </div>
+                     </div>
+                     <!-- - widget area #1 [wide] -->
+                     <!-- widget area #2 [4 columns] -->
+                     <div class="row justify-content-between position-relative pt-3 pb-1">
+                        <div class="col-lg-3 col-sm-6">
+                           <section class="widget widget_text">
+                              <div class="textwidget">
+                                 <p>Fryderyka Chopina 74<br>05-800 Pruszków<br>kontakt@futurewebstudio.pl</p>
+                              </div>
+                           </section>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 d-flex align-items-end justify-content-end-t">
+                           <section class="widget widget_kinsey_social">
+                              <ul class="social">
+                                 <li class="social__item"><a class="social__icon fa-fw fab fa-facebook-f" href="https://www.facebook.com/stronyinternetowefutureweb" target="_blank"></a></li>
+                                 <li class="social__item"><a class="social__icon fa-fw fab fa-instagram" href="https://www.linkedin.com/in/przemys%C5%82aw-miros-6b6b431a2/" target="_blank"></a></li>
+                                 <li class="social__item"><a class="social__icon fa-fw fab fa-behance" href="https://github.com/PrzemekMiros" target="_blank"></a></li>
+                              </ul>
+                           </section>
+                        </div>
+                     </div>
+                     <!-- - widget area #2 [4 columns] -->
+                     <!-- widget area #3 [2 columns] -->
+                     <div class="row align-items-center position-relative pt-5 pb-4">
+                        <section class="widget widget_text">
+                           <div class="textwidget">
+                              <p><small>© 2021 Przemek Miros </small></p>
+                           </div>
+                        </section>
+                     </div>
+                     <!-- - widget area #3 [2 columns] -->
+                  </div>
+               </div>
+            </footer>
+         </div>
+         <!-- - PAGE MAIN CONTAINER -->
+      </div>
+      <canvas id="js-webgl"></canvas>
+      <!-- Cursor Follower-->
+      <div class="arts-cursor" id="js-arts-cursor">
+         <div class="arts-cursor__wrapper">
+            <!-- circles-->
+            <div class="arts-cursor__follower js-arts-cursor__follower">
+               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <circle class="arts-cursor__stroke-inner js-arts-cursor__stroke-inner" cx="25" cy="25" r="24" style="opacity: 0.6;"></circle>
+                  <circle class="arts-cursor__stroke-outer js-arts-cursor__stroke-outer" cx="25" cy="25" r="24" style="stroke-dashoffset: 252.327; stroke-dasharray: 0px, 999999px;"></circle>
+               </svg>
+            </div>
+            <!-- arrows-->
+            <div class="arts-cursor__arrows">
+               <div class="arts-cursor__arrow arts-cursor__arrow_up material-icons keyboard_arrow_up js-arts-cursor__arrow-up"></div>
+               <div class="arts-cursor__arrow arts-cursor__arrow_right material-icons keyboard_arrow_right js-arts-cursor__arrow-right"></div>
+               <div class="arts-cursor__arrow arts-cursor__arrow_down material-icons keyboard_arrow_down js-arts-cursor__arrow-down"></div>
+               <div class="arts-cursor__arrow arts-cursor__arrow_left material-icons keyboard_arrow_left js-arts-cursor__arrow-left"></div>
+            </div>
+            <!-- label holder-->
+            <div class="arts-cursor__wrapper-label">
+               <div class="arts-cursor__label js-arts-cursor__label"></div>
+            </div>
+            <!-- icon holder-->
+            <div class="arts-cursor__wrapper-icon">
+               <div class="arts-cursor__icon js-arts-cursor__icon"></div>
+            </div>
+         </div>
+      </div>
+      <!-- - Cursor Follower-->
+      <!-- Mobile Loading Spinner -->
+      <svg class="spinner d-lg-none" id="js-spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+         <circle class="spinner__path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+      </svg>
+      <!-- - Mobile Loading Spinner -->
+      <!-- Curtain AJAX transition -->
+      <div class="transition-curtain" id="js-page-transition-curtain"></div>
+      <!-- - Curtain AJAX transition -->
+      <!-- PhotoSwipe Lightbox Container -->
+      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" data-arts-theme-text="light">
+         <!-- background -->
+         <div class="pswp__bg"></div>
+         <!-- - background -->
+         <!-- slider wrapper -->
+         <div class="pswp__scroll-wrap">
+            <!-- slides holder (don't modify)-->
+            <div class="pswp__container">
+               <div class="pswp__item">
+                  <div class="pswp__img pswp__img--placeholder"></div>
+               </div>
+               <div class="pswp__item"></div>
+               <div class="pswp__item"></div>
+            </div>
+            <!-- - slides holder (don't modify)-->
+            <!-- UI -->
+            <div class="pswp__ui pswp__ui--hidden">
+               <!-- top bar -->
+               <div class="pswp__top-bar">
+                  <div class="pswp__counter"></div>
+                  <button class="pswp__button pswp__button--close" title="Close (Esc)" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true"></button>
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true"></button>
+                  <div class="pswp__preloader">
+                     <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                           <div class="pswp__preloader__donut"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- - top bar -->
+               <!-- left arrow -->
+               <div class="pswp__button pswp__button--arrow--left material-icons" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">keyboard_arrow_left</div>
+               <!-- - left arrow -->
+               <!-- right arrow -->
+               <div class="pswp__button pswp__button--arrow--right material-icons" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">keyboard_arrow_right</div>
+               <!-- - right arrow -->
+               <!-- slide caption holder (don't modify) -->
+               <div class="pswp__caption">
+                  <div class="pswp__caption__center text-center"></div>
+               </div>
+               <!-- - slide caption holder (don't modify) -->
+            </div>
+            <!-- - UI -->
+         </div>
+         <!-- slider wrapper -->
+      </div>
+      <!-- - PhotoSwipe Lightbox Container -->
+      <!-- VENDOR SCRIPTS -->
+      <script src="js/vendor.js"></script>
+      <!-- - VENDOR SCRIPTS -->
+      <!-- COMPONENTS -->
+      <script src="js/components.js"></script>
+      <!-- - COMPONENTS -->
+   </body>
+</html>
+
